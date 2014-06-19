@@ -10,7 +10,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid="StoneCutter", name="StoneCutter", version="1.7srg-1",dependencies="required-after:FML")
+@Mod(modid="StoneCutter", name="StoneCutter", version="@VERSION@",dependencies="required-after:FML")
 //@NetworkMod(clientSideRequired=true, serverSideRequired=false)
 public class StoneCutter
 {
