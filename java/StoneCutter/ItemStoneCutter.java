@@ -1,9 +1,9 @@
 package StoneCutter;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent.ItemCraftedEvent;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class ItemStoneCutter extends Item
 {
