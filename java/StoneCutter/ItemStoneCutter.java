@@ -28,7 +28,14 @@ public class ItemStoneCutter extends Item
     {
         return !repair;
     }
-	//修理かどうかを判定する
+
+    //修理以外ならクラフト後にgetContainerItemStackを呼び出す。1.7.19以降はこちらを推奨
+    @Override
+    public boolean hasContainerItem(ItemStack stack) {
+        return !repair;
+    }
+
+    //修理かどうかを判定する
 	@SubscribeEvent
 	public void onCrafting(ItemCraftedEvent event)
 	{
